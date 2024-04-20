@@ -1,0 +1,668 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #eae8eb;
+}
+.beijing{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.beijing .daohang{
+    /* border: 2px solid red; */
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+.beijing .daohang:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.beijing .daohang .left-daohang{
+    /* border: 1px solid red; */
+    float: left;
+}
+.beijing .daohang .left-daohang li{
+    float: left;
+    padding: 4px 7px;
+}
+.beijing .daohang .left-daohang li a{
+    font-size: 12px;
+    color: #6c6c6c;
+    /* float: left; */
+}
+.daohang.beijing .daohang .left-daohang div{
+    height: 35px;
+    line-height: 35px;
+    /* float: left; */
+}
+.beijing .daohang .left-daohang li a:hover{
+    color:#f40;
+}
+.beijing .daohang .diqu span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+}
+
+
+
+
+
+.beijing .daohang .right-daohang{
+    /* border: 1px solid red; */
+    float: right;
+}
+.beijing .daohang .right-daohang li{
+    float: left;
+    padding: 0px 7px;
+    position: relative;
+    z-index: 12;
+}
+.beijing .daohang .right-daohang li a{
+    font-size: 12px;
+    color: #6c6c6c;
+    line-height: 35px;
+    
+    z-index: 1;
+    /* float: left; */
+}
+/* .beijing .daohang .right-daohang .wodetaobao .xiala li{
+    width: 62px;
+} */
+.daohang.beijing .daohang .right-daohang li div{
+    height: 35px;
+    line-height: 35px;
+    /* float: left; */
+}
+.beijing .daohang .right-daohang li a:hover{
+    color:#f40;
+}
+.beijing .daohang .right-daohang ul{
+    background-color: white;
+    width: 88px;
+    position: absolute;
+    z-index: 12;
+    display: none;
+}
+.beijing .daohang .right-daohang .btli:hover ul{
+    display: block;
+}
+.beijing .daohang .diqu span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+}
+
+.line{
+    height: 35px;
+    line-height: 35px;
+    color: #ccc;
+}
+.beijing .daohang  .left-daohang .nm{
+    color: red;
+}
+.beijing .daohang .wodetaobao span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+}
+.beijing .daohang .shoucangjia span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+}
+.beijing .daohang .maijia span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+}
+.beijing .daohang .kefu span{
+    display: inline-block;
+    width:5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+}
+/* .gouwuche .star{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/OIP-C.jpg);
+    background-position: 0 10px;
+    background-size: 5px 5px;
+} */
+/* .shoucang{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    background-image: url(./image/star.jpg);
+    background-position: 0 10px;
+    background-size: 7px 7px;
+} */
+
+
+
+
+
+.taobao-body{
+    width: 1190px;
+    margin: 0 auto;
+    /* height: 200px; */
+    background-color: #eae8eb;
+}
+.taobao-body .head{
+    padding-top: 15px;
+    height: 100px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.taobao-body .search{
+    margin: 0 220px 0 250px;
+    /* background-color: red; */
+    height: 115px;
+    position: relative;
+}
+.taobao-body .logo{
+    height: 75px;
+    width: 128px;
+    background-image: url(./image/屏幕截图\ 2024-02-29\ 220942.png);
+    position: absolute;
+    left: 78px;
+    top: 26px;
+}
+.taobao-body .erweima{
+    height: 74px;
+    width: 74px;
+    background-image: url(./image/下载.png);
+    background-size: 74px 74px;
+    position: absolute;
+    right: 78px;
+    top: 26px;
+}
+.taobao-body .search-box{
+    position: absolute;
+    top: 23px;
+    height: 34px;
+    border-radius: 20px;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    border-color: #f50;
+}
+.taobao-body .search-box .content{
+    padding: 6px 0;
+    text-indent: 10px;
+    height: 22px;
+    line-height: 22px;
+    width: 618px;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    position: relative;
+    bottom: 3px;
+    border-radius: 20px;
+}
+.taobao-body .search-box .submit{
+    height: 34px;
+    width: 72px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #f50;
+    border-radius: 20px;
+}
+.taobao-body .search-foot a{
+    color: black;
+    font-weight: 30;
+    position: relative;
+    top: 66px;
+    font-size: 12px;
+    padding: 4px;
+}
+.taobao-body .search-foot a:hover{
+    color: red;
+}
+.taobao-body .taobao-daohang:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.taobao-body .taobao-daohang{
+    background-color: white;
+}
+.taobao-daohang .denglu{
+    float: left;
+    height: 2px;
+    width: 100%;
+    /* margin-left: 200px; */
+    /* background-color: blue; */
+    position: relative;
+}
+.taobao-daohang .denglu .dl{
+    margin-left: 200px;
+    /* background-color: red; */
+    height: 403px;
+    /* float: left; */
+    position: absolute;
+    right:19px;
+}
+.taobao-body .taobao-daohang .fl-head ul li{
+    float: left;
+    text-align: center;
+    margin: 20px 26px 20px 5px;
+    padding-left: 5px;
+    padding-right:5px ;
+    font-size: 16px;
+}
+.taobao-body .taobao-daohang .fl-head a:hover{
+    color: orange;
+}
+.taobao-body .taobao-daohang .fl-head .color-a{
+    color: #fe0036;
+    /* font-weight: 800px; */
+}
+.taobao-body .taobao-daohang .fl-head .color-b{
+    color: green;
+    /* font-weight: 800px; */
+}
+.taobao-body .taobao-daohang .fl-head .color-c{
+    color: #fe0036;
+    /* font-weight: 800px; */
+}
+/* .taobao-body .taobao-daohang .fl-head .head-line{
+    height: 45px;
+    line-height: 45px;
+    color: #ccc;
+} */
+.taobao-body .taobao-daohang .fl-head a{
+    padding: 0 3px;
+    width: 52px;
+    color: black;
+    transition: 0.2s ease;
+    /* float: left; */
+}
+.taobao-body .taobao-daohang .dongtaiqiehuan{
+    float: left;
+    width:  564.59px;
+    overflow: hidden;
+    position: relative;
+    /* background-color: red; */
+}
+.taobao-body .taobao-daohang .lunbo-img{
+    /* width: 564.59px; */
+    display: flex;
+    height: 315px;
+    width:  564.59px;
+    float: left;
+    /* overflow: hidden; */
+    position: relative;
+    right: 0px;
+    transition: 0.3s ease;
+    /* right: 70px; */
+}
+.taobao-body .taobao-daohang .jiantou{
+    color: red;
+    float: left;
+    /* background-color: red; */
+}
+.taobao-body .taobao-daohang .left-jiantou{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    font-size: 33px;
+    background-color: gray;
+    transition: all 0.3s;
+}
+.taobao-body .taobao-daohang .right-jiantou{
+    position: absolute;
+    left: 540px;
+    top: 50%;
+    font-size: 33px;
+    background-color: gray;
+    transition: all 0.5s;
+}
+.taobao-body .taobao-daohang .yuandian{
+    /* background-color: red; */
+    float: left;
+    color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+}
+.taobao-body .taobao-daohang .yuandian li{
+    float: left;
+}
+.taobao-body .taobao-daohang .right-jiantou:hover{
+    background-color: black;
+}
+.taobao-body .taobao-daohang .left-jiantou:hover{
+    background-color: black;
+}
+.taobao-body .taobao-daohang .xingxi{
+    float:right;
+    /* border: 3px solid red; */
+    width: 400px;
+    position: relative;
+    right: -18px;
+    /* bottom: 319px; */
+    background-color: white;
+}
+.taobao-body .taobao-daohang .xingxi .xingxi-nei{
+    height: 187px;
+    width: 400px;
+    overflow: hidden;
+}
+.taobao-body .taobao-daohang .xingxi .what ul li{
+    float: left;
+    width: 30%;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-right:10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+}
+.taobao-body .taobao-daohang .xingxi .what a{
+    color: black;
+}
+.taobao-body .taobao-daohang .xingxi .what{
+    position: relative;
+    top: 100px;
+    transition: 0.3s ease;
+}
+.taobao-body .taobao-daohang .xingxi .kaidian{
+    padding: 5px 10px;
+    width: 268px;
+    height: 110px;
+    margin: 0 auto;
+    /* border: 1px solid #DDD; */
+    /* overflow: hidden; */
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    top: 50px;
+    transition: 0.3s ease;
+}
+.taobao-body .taobao-daohang .xingxi .xingxi-nei:hover .kaidian{
+    position: relative;
+    top: 0px;
+}
+.taobao-body .taobao-daohang .xingxi .xingxi-nei:hover .what{
+    position: relative;
+    top: 0px;
+}
+/* .taobao-body .taobao-daohang .xingxi .xingxi-nei:hover + .what{
+    position: relative;
+    top: 0px;
+}
+.taobao-body .taobao-daohang .xingxi .what:hover{
+    position: relative;
+    top: 0px;
+}
+.taobao-body .taobao-daohang .xingxi .what:hover + .kaidian{
+    position: relative;
+    top: 0px;
+} */
+.taobao-body .taobao-daohang .xingxi .baobei .xianshi{
+    float: left;
+    width: 21%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-right:10px ;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* background-color: orange; */
+}
+.taobao-body .taobao-daohang .xingxi .baobei{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.taobao-body .taobao-daohang .xingxi .baobei img{
+    position: relative;
+    left:  0px;
+}
+.taobao-body .taobao-daohang .xingxi .baobei p:hover{
+    color: orange;
+}
+.taobao-body .taobao-daohang .xingxi .baobei p{
+    font-size: 13px;
+}
+/* .taobao-body .taobao-daohang .xingxi .redian{
+    margin-top: 80px;
+} */
+.taobao-body .taobao-daohang .xingxi .redian .r{
+    float: left;
+    position: relative;
+    font-size: 14px;
+    color: red;
+    left: 35px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.taobao-body .taobao-daohang .xingxi .redian .y{
+    float: left;
+    font-size: 14px;
+    color: #6c6c6c;
+    position: relative;
+    left: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.taobao-body .taobao-daohang .fenlei{
+    float: left;
+    width: 300px;
+    /* 270 */
+    height: 368px;
+    /* background-color: yellow; */
+    margin-left: -100%;
+    padding-top:35px ;
+    padding-left: 20px;   
+}
+.taobao-body .taobao-daohang .fenlei .f{
+    /* background-color: yellow; */
+    height: 368px;
+    width: 300px;
+}
+/* .taobao-body .taobao-daohang .fenlei .f li{
+
+} */
+.taobao-daohang .fenlei .you-S:hover{
+    width: 780px;
+}
+.taobao-body .taobao-daohang .fenlei h3{
+    padding-bottom: 15px;
+}
+.taobao-body .taobao-daohang .fenlei .xie-line{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.taobao-body .taobao-daohang .fenlei .img-a{
+    height: 16px;
+    width: 16px;
+    /* background-color: red; */
+    /* background-image: url(./image/屏幕截图\ 2024-03-05\ 214841.png);
+    background-size: 16px;
+    background-repeat: no-repeat; */
+}
+.taobao-body .taobao-daohang .fenlei ul li{
+    margin-bottom: 18px;
+    float: left;
+    /* color: black; */
+}
+.taobao-body .taobao-daohang .fenlei ul li a{
+    color: black;
+}
+.taobao-body .taobao-daohang .fenlei ul li:hover a{
+    color: red;
+}
+.taobao-body .taobao-daohang .fenlei ul li a:hover{
+    text-decoration:underline;
+}
+.taobao-body .taobao-daohang .fenlei ul li:hover span{
+    color: red;
+}
+.taobao-body .taobao-shop{
+    display: inline-block;
+    height: 100%;
+    padding: 11px;
+    background-color: white;
+    position: relative;
+}
+.taobao-body .taobao-shop .cai{
+    height: 24px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    /* background-color: red; */
+}
+.taobao-body .taobao-shop .cai-a{
+    float: left;
+    color: #111;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+.taobao-body .taobao-shop .cai-img{
+    height: 20px;
+    margin: 4px 0 0 6px;
+}
+.taobao-body .taobao-shop .cai-shopping{
+    position: relative;
+    width: 348.4px;
+    height: 150px;
+    float: left;
+    padding: 11px;
+    border: 1px solid transparent;
+}
+.taobao-body .taobao-shop .cai-shopping:hover{
+    border: 1px orange solid;
+    border-radius: 20px;
+}
+.taobao-body .taobao-shop .cai-shopping a{
+    /* float: left; */
+    width: 348.4px;
+    position: relative;
+}
+.taobao-body .taobao-shop .cai-shopping .cai-img-a img{
+    display: block;
+    /* height: 25%; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.taobao-body .taobao-shop .cai-name{
+    height: 116px;
+    margin-left: 162px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+}
+.taobao-body .taobao-shop .cai-name .cai-title{
+    display: inline-block;
+    max-height: 46px;
+    margin: 6px 0 2px 0;
+    /* overflow: hidden; */
+    color: #333;
+    font-size: 16px;
+    line-height: 23px;
+}
+.taobao-body .taobao-shop .cai-name .cai-title:hover{
+    color: red;
+}
+/* .taobao-body .taobao-shop .cai-title:hover .cai-shopping{
+    border: 1px solid red;
+} */
+.taobao-body .taobao-shop .cai-tag{
+    position: absolute;
+    top: 78px;
+    left: 160px;
+}
+.taobao-body .taobao-shop .cai-jiage{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    position: absolute;
+    left: 160px;
+    top: 130px;
+    color: black;
+}
+.guding{
+    width: 82px;
+    height: 450px;
+    position:fixed;
+    bottom: 50px;
+    right: 0px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+.UL{
+    background-color: white;
+    border-radius: 20px;
+}
+.LI{
+    height: 60px;
+    width: 70px;
+    line-height: 60px;
+    /* border: 1px solid #808080; */
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px; 
+    background-color: white;
+    border-radius: 20px;
+}
+.LI a{
+    color: black;
+    transition: all 0.3s;
+}
+
+.LI:hover a{
+    color: orange;
+}
+
+
